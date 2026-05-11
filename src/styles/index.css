@@ -1,0 +1,46 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+[data-cursor-suspend] ::selection {
+  background: rgba(255, 43, 43, 0.24);
+  color: #fff5f5;
+  text-shadow: 0 0 18px rgba(255, 43, 43, 0.28);
+}
+
+.selection-zone {
+  position: relative;
+}
+
+.selection-zone::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgba(255, 43, 43, 0.06), transparent);
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+
+.selection-zone:hover::before,
+.selection-zone:focus-within::before {
+  opacity: 1;
+}
+
+@keyframes loader-grid-pan {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(48px, 48px, 0);
+  }
+}
+
+.loader-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
+  animation: loader-grid-pan 9s linear infinite;
+}
