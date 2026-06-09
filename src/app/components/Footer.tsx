@@ -19,7 +19,7 @@ const company = [
 
 const contactInfo = [
   { icon: Mail,   label: 'Info@vizocloud.com',                                    href: 'mailto:Info@vizocloud.com' },
-  { icon: Phone,  label: '+1-307-381-9690',                                       href: 'tel:+13073819690' },
+  { icon: Phone,  label: '+1 (850) 284-5184',                                       href: 'tel:+18502845184' },
   { icon: MapPin, label: '8051 N. Tamiami Trail STE E6, Sarasota Florida 34243',  href: '#' },
 ];
 

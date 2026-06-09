@@ -140,7 +140,7 @@ export function ContactPage() {
           >
             {[
               { icon: Mail,   text: 'Info@vizocloud.com',  href: 'mailto:Info@vizocloud.com' },
-              { icon: Phone,  text: '+1-307-381-9690',      href: 'tel:+13073819690' },
+              { icon: Phone,  text: '+1 (850) 284-5184',      href: 'tel:+18502845184' },
               { icon: MapPin, text: 'Sarasota, FL',          href: '#' },
             ].map(({ icon: Icon, text, href }) => (
               <a
@@ -172,9 +172,9 @@ export function ContactPage() {
               {
                 icon: Phone,
                 label: 'Phone',
-                value: '+1-307-381-9690',
+                value: '+1 (850) 284-5184',
                 sub: 'Mon – Fri, 9AM – 6PM EST',
-                href: 'tel:+13073819690',
+                href: 'tel:+18502845184',
                 color: '#8b5cf6',
               },
               {
@@ -429,13 +429,13 @@ export function ContactPage() {
 
                   <div className="h-px bg-white/[0.05]" />
 
-                  <a href="tel:+13073819690" className="flex items-center gap-4 group">
+                  <a href="tel:+18502845184" className="flex items-center gap-4 group">
                     <div className="w-10 h-10 rounded-xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center shrink-0 group-hover:bg-violet-500/20 transition-colors duration-200">
                       <Phone className="w-4 h-4 text-violet-400" strokeWidth={1.75} />
                     </div>
                     <div>
                       <div className="text-[10px] font-display tracking-widest uppercase text-violet-400 mb-0.5">Phone</div>
-                      <div className="text-sm text-white font-semibold group-hover:text-violet-400 transition-colors duration-200">+1-307-381-9690</div>
+                      <div className="text-sm text-white font-semibold group-hover:text-violet-400 transition-colors duration-200">+1 (850) 284-5184</div>
                       <div className="text-[10px] text-gray-600 mt-0.5">Mon – Fri, 9AM – 6PM EST</div>
                     </div>
                   </a>
@@ -479,10 +479,10 @@ export function ContactPage() {
                     Book a free 30-minute consultation. No pressure — just a conversation about your goals.
                   </p>
                   <a
-                    href="tel:+13073819690"
+                    href="tel:+18502845184"
                     className="inline-flex items-center gap-2 text-xs font-display font-bold text-[#ff2b2b] hover:gap-3 transition-all duration-200"
                   >
-                    Call +1-307-381-9690
+                    Call +1 (850) 284-5184
                     <ArrowRight className="w-3.5 h-3.5" />
                   </a>
                 </div>
